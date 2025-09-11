@@ -1,0 +1,22 @@
+body {
+font-family:sans-serif
+}
+header {
+  background-color: hsl(247, 98%, 35%);
+  padding: 60px;
+  border-radius: 1cm;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(193, 142, 0);
+}
+
+nav {
+  float: left;
+  border-radius: 1cm;
+  width: 30%;
+  height: 400px;
+  padding: 20px;
+}
+
+
+body
