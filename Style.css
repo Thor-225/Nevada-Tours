@@ -1,5 +1,5 @@
 body {
-font-family:sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 header {
   background-color: hsl(247, 98%, 35%);
@@ -7,12 +7,11 @@ header {
   border-radius: 1cm;
   text-align: center;
   font-size: 60px;
-  color: rgb(193, 142, 0);
+  color: rgb(255, 180, 29);
 }
 
 nav {
   float: left;
-  border-radius: 1cm;
   width: 30%;
   height: 400px;
   padding: 20px;
@@ -20,6 +19,7 @@ nav {
 
 img {
   border-radius: 2cm;
+  width: 20%;
   }
 
 body
