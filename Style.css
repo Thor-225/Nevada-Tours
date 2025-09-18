@@ -8,6 +8,7 @@ header {
   text-align: center;
   font-size: 60px;
   color: rgb(255, 180, 29);
+ ;
 }
 
 nav {
@@ -17,7 +18,15 @@ nav {
   padding: 20px;
 }
 
+main  {
+  float: right;
+  width: 60%;
+  height: 400px;
+  padding: 20px;
+}
+
 img {
+  float: right;
   border-radius: 2cm;
   width: 20%;
   }
