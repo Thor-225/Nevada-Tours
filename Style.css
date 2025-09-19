@@ -14,20 +14,24 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 400px;
+  height: 420px;
   padding: 20px;
+  background-color: hsla(0, 0%, 80%, 0.697);
+  border-radius: 1cm;
 }
 
 main  {
   float: right;
   width: 60%;
-  height: 400px;
+  height: 300px;
   padding: 20px;
+  background-color: hsla(0, 0%, 80%, 0.697);
+  border-radius: 1cm;
 }
 
 img {
   float: right;
-  border-radius: 2cm;
+  border-radius: 1cm;
   width: 20%;
   }
 
