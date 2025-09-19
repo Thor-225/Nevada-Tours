@@ -8,7 +8,7 @@ header {
   text-align: center;
   font-size: 60px;
   color: rgb(255, 180, 29);
- ;
+  border-style: solid;
 }
 
 nav {
@@ -16,8 +16,9 @@ nav {
   width: 30%;
   height: 420px;
   padding: 20px;
-  background-color: hsla(0, 0%, 80%, 0.697);
+  background-color: hsla(0, 0%, 78%, 0.351);
   border-radius: 1cm;
+ border-style: solid;
 }
 
 main  {
@@ -25,14 +26,15 @@ main  {
   width: 60%;
   height: 300px;
   padding: 20px;
-  background-color: hsla(0, 0%, 80%, 0.697);
+  background-color: hsla(0, 0%, 78%, 0.351);
   border-radius: 1cm;
+  border-style: solid;
 }
 
 img {
   float: right;
   border-radius: 1cm;
-  width: 20%;
+  border-style: solid;
   }
 
 body
