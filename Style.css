@@ -1,6 +1,9 @@
 body {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+body {
+  background-image: url("Desert.jpg");
+}
 header {
   background-color: hsl(247, 98%, 35%);
   padding: 60px;
@@ -16,7 +19,7 @@ nav {
   width: 30%;
   height: 420px;
   padding: 20px;
-  background-color: hsla(0, 0%, 78%, 0.351);
+  background-color: hsla(0, 0%, 78%, 0.584);
   border-radius: 1cm;
  border-style: solid;
 }
@@ -26,14 +29,13 @@ main  {
   width: 60%;
   height: 300px;
   padding: 20px;
-  background-color: hsla(0, 0%, 78%, 0.351);
-  border-radius: 1cm;
+  background-color: hsla(0, 0%, 78%, 0.584);
+  border-radius: 0,5cm;
   border-style: solid;
 }
 
 img {
   float: right;
-  border-radius: 1cm;
   border-style: solid;
   }
 
