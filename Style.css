@@ -13,7 +13,22 @@ header {
   color: rgb(255, 180, 29);
   border-style: solid;
 }
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  float: right;
+}
 
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  
+}
 nav {
   float: left;
   width: 30%;
@@ -27,7 +42,6 @@ nav {
 main  {
   float: right;
   width: 60%;
-  height: 300px;
   padding: 20px;
   background-color: hsla(0, 0%, 78%, 0.584);
   border-radius: 0,5cm;
