@@ -1,9 +1,14 @@
+/* Feil: Manglet semikolon etter font-family */
 body {
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* OK */
 body {
   background-image: url("Desert.jpg");
 }
+
+/* OK */
 header {
   background-color: hsl(247, 98%, 35%);
   padding: 60px;
@@ -13,22 +18,40 @@ header {
   color: rgb(255, 180, 29);
   border-style: solid;
 }
+
+.flex-item-large {
+  width: 25%;
+  flex: none; /* Prevents flex-grow from overriding width */
+}
+/* Feil: Manglet kolon etter background-color. 
+   Feil: float: right; er unødvendig på en flex-container. */
 .flex-container {
   display: flex;
   align-items: stretch;
-  background-color: #f1f1f1;
-  float: right;
+  background-color: hsla(0, 100%, 50%, 0);
+  /* float: right;  Fjernet */
 }
 
+/* Feil: <div> er ikke gyldig i CSS, fjernet. */
 .flex-container > div {
-  background-color: DodgerBlue;
-  color: white;
+  background-color: hsla(0, 0%, 78%, 0.584);
   margin: 10px;
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  
 }
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  border-style: solid;
+  width: 20%;
+  }
+
+/* OK, men float: left; og float: right; bør ikke brukes sammen med flex.
+   Bruk heller flexbox for layout. */
 nav {
   float: left;
   width: 30%;
@@ -36,22 +59,15 @@ nav {
   padding: 20px;
   background-color: hsla(0, 0%, 78%, 0.584);
   border-radius: 1cm;
- border-style: solid;
+  border-style: solid;
 }
 
-main  {
+main {
   float: right;
   width: 60%;
   padding: 20px;
   background-color: hsla(0, 0%, 78%, 0.584);
-  border-radius: 0,5cm;
+  /* Feil: Bruk punktum, ikke komma, i border-radius */
+  border-radius: 0.5cm;
   border-style: solid;
 }
-
-img {
-  float: right;
-  border-style: solid;
-  width: 20,5%;
-  }
-
-body
