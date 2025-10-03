@@ -26,18 +26,15 @@ header {
 
 .flex-item-large {
   width: 25%;
-  flex: none; /* Prevents flex-grow from overriding width */
+  flex: none;
 }
-/* Feil: Manglet kolon etter background-color. 
-   Feil: float: right; er unødvendig på en flex-container. */
+
 .flex-container {
   display: flex;
   align-items: stretch;
   background-color: hsla(0, 100%, 50%, 0);
-  /* float: right;  Fjernet */
 }
 
-/* Feil: <div> er ikke gyldig i CSS, fjernet. */
 .flex-container > div {
   background-color: hsla(0, 0%, 78%, 0.584);
   margin: 10px;
@@ -56,8 +53,6 @@ header {
   width: 20%;
   }
 
-/* OK, men float: left; og float: right; bør ikke brukes sammen med flex.
-   Bruk heller flexbox for layout. */
 nav {
   float: left;
   width: 30%;
@@ -73,7 +68,6 @@ main {
   width: 60%;
   padding: 20px;
   background-color: hsla(0, 0%, 78%, 0.584);
-  /* Feil: Bruk punktum, ikke komma, i border-radius */
   border-radius: 0.5cm;
   border-style: solid;
 }
