@@ -1,14 +1,14 @@
-/* Feil: Manglet semikolon etter font-family */
+
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* OK */
 body {
   background-image: url("Bilder/Desert.jpg");
+
 }
 
-/* OK */
+
 header {
   background-color: hsl(247, 98%, 35%);
   padding: 40px;
@@ -29,6 +29,17 @@ header {
   flex: none;
 }
 
+.flex-item-secondary {
+  all: unset;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-style: solid;
+}
+
 .flex-container {
   display: flex;
   align-items: stretch;
@@ -36,12 +47,13 @@ header {
 }
 
 .flex-container > div {
-  background-color: hsla(0, 0%, 78%, 0.584);
+  background-color: hsla(0, 0%, 78%, 0.883);
   margin: 10px;
   text-align: center;
   border-radius: 1cm;
   line-height: 40px;
   font-size: 20px;
+  border-style: solid;
 }
 
 .center-img {
