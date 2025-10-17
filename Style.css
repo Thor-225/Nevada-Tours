@@ -1,16 +1,16 @@
-
+/*font style*/
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 body {
-  background-image: url("Bilder/Desert.jpg");
+  background-image: url("Bilder/Desert.jpg"); /*Background image*/
 
 }
 
-
-header {
-  background-color: hsl(247, 98%, 35%);
+/*How the header looks like. How much space it takes and how it's aligned*/
+header { 
+  background-color: hsl(247, 98%, 35%); 
   padding: 40px;
   border-radius: 1cm;
   text-align: center;
@@ -23,12 +23,12 @@ header {
   float: none;
   width: 60%;
 }
-
-.flex-item-large {
+/*Flex container with less width;*/
+.flex-item-tiny {
   width: 25%;
   flex: none;
 }
-
+/*Flex container for the dex.html file*/
 .flex-item-secondary {
   all: unset;
   width: 100%;
@@ -39,47 +39,19 @@ header {
   font-size: 20px;
   border-style: solid;
 }
-
+/*Flex container which all flex are affected by*/
 .flex-container {
   display: flex;
   align-items: stretch;
   background-color: hsla(0, 100%, 50%, 0);
 }
-
+/*How each div inside the flex container functions*/
 .flex-container > div {
-  background-color: hsla(0, 0%, 78%, 0.883);
+  background-color: hsla(0, 0%, 100%, 0.883);
   margin: 10px;
   text-align: center;
   border-radius: 1cm;
   line-height: 40px;
   font-size: 20px;
-  border-style: solid;
-}
-
-.center-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  border-style: solid;
-  width: 20%;
-  }
-
-nav {
-  float: left;
-  width: 30%;
-  height: 420px;
-  padding: 20px;
-  background-color: hsla(0, 0%, 78%, 0.584);
-  border-radius: 1cm;
-  border-style: solid;
-}
-
-main {
-  float: right;
-  width: 60%;
-  padding: 20px;
-  background-color: hsla(0, 0%, 78%, 0.584);
-  border-radius: 0.5cm;
   border-style: solid;
 }
